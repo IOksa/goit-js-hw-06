@@ -23,13 +23,13 @@ button {
   cursor: pointer;
 }
 
-.item{
+.task__item{
   width: 100%;
   max-width: 450px;
   display: flex;
   flex-basis: calc((100% - 30px) / 3);
 }
-.list{
+.task__list{
   display: flex;
   flex-wrap: wrap;
   gap: 30px;

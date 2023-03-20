@@ -23,10 +23,10 @@ const images = [
 ];
 
 const listItemsStringMarkup=images
-.map(({url, alt}) => `<li class="item"><img src="${url}" alt="${alt}"/></li>`)
+.map(({url, alt}) => `<li class="task__item"><img src="${url}" alt="${alt}"/></li>`)
 .join('');
 
 const ulEl=document.querySelector('.gallery');
 ulEl.insertAdjacentHTML('beforeend', listItemsStringMarkup);
 
-ulEl.classList.add('list');
+ulEl.classList.add('task__list');
