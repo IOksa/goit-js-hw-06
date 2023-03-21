@@ -29,12 +29,7 @@ button {
   display: flex;
   flex-basis: calc((100% - 30px) / 3);
 }
-.task__list{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
 
-}
 img{
   display: block;
   max-width: 100%;

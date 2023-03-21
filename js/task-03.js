@@ -29,4 +29,8 @@ const listItemsStringMarkup=images
 const ulEl=document.querySelector('.gallery');
 ulEl.insertAdjacentHTML('beforeend', listItemsStringMarkup);
 
-ulEl.classList.add('task__list');
+//ulEl.style.display='flex';
+//ulEl.style.flexWrap='wrap';
+//lEl.style.gap='30px';
+
+ulEl.style.cssText='display: flex; flex-wrap: wrap; gap: 30px';
