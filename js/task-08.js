@@ -26,7 +26,7 @@ function onFormSubmit(event) {
 
     console.log("objForm=", objForm);
 
-    formElements.reset;
+    formElements.reset;//или formEl.reset????
 
   }
 }

@@ -31,6 +31,6 @@ ulEl.insertAdjacentHTML('beforeend', listItemsStringMarkup);
 
 //ulEl.style.display='flex';
 //ulEl.style.flexWrap='wrap';
-//lEl.style.gap='30px';
+//ulEl.style.gap='30px';
 
 ulEl.style.cssText='display: flex; flex-wrap: wrap; gap: 30px';
